@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lalezar&family=Manrope&family=Montserrat:wght@900&family=Outfit&display=swap');
+*{
+    padding:0px;
+    margin: 0px;
+    font-size: 16px;
+}
+.navbar{
+    padding: 12px 8px !important
+}
+.logo-div{
+    display: flex;
+}
+
+.navbar-brand{
+    margin-left:10px;
+    font-family:Inter;
+}
+
+.nav-link{
+    font-family: Inter;
+}
+.hero-section{
+    padding:20px 20px;
+}
+.hero-text{
+    font-family:Montserrat;
+    font-size: 2rem;
+    color:black;
+}
+.hero-paragraph{
+    font-family: Inter;
+    color:hsl(211, 12%, 48%);
+}
+.hero-icon-div{
+    border: 1px solid hsl(204, 8%, 76%);;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+.hero-links{
+    text-decoration: none;
+    color: black;
+    font-family: Inter;
+    margin-left: 5px;
+}
+.brand-icon-div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 133px;
+}
+.airbnb-text{
+    font-family: Outfit;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+.twitter-text{
+    font-family: Manrope;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.microsoft-text{
+    font-family: Outfit;
+    font-size: 1.4rem;
+    margin-left: 3px;
+}
+.spotify-text{
+    font-family: Manrope;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.mailchimp-text{
+    font-family: Lalezar;
+    margin-left: 3px;
+    font-size: 1.4rem;
+}
+.linkedin-text{
+    font-family: Manrope;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+@media screen and (min-width:200px) and (max-width:426px){
+    .landwind-logo{
+        width: 22px;
+    }
+    .navbar-nav a:is(:link, :active, :visited).active{
+        background:hsl(272, 61%, 34%);
+        color:white;
+        padding: 7px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    .hero-banner{
+        display:none;
+    }
+    .hero-paragraph{
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        margin-top: 2px;
+    }
+    .hero-links-div{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height:115px;
+    }
+    .brands-icon-section{
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: auto auto;
+        padding: 17px 25px 10px 25px;
+        row-gap:30px ;
+    }
+    .sub-hero-icon{
+        width: 40px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .landwind-logo{
+    width: 33px;
+    }
+    .navbar-brand{
+        font-weight:500 ;
+    }
+    .nav-link{
+        font-weight: 500!important;
+    }
+    .navbar-nav a:is(:link, :active, :visited).active{
+        background:hsl(272, 61%, 34%);
+        color:white;
+        padding: 7px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    .hero-banner{
+        display:none;
+    }
+    .hero-links-div{
+       display: flex;
+       justify-content: space-between;
+       width:350px;
+    }
+    .hero-icon-div{
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .hero-links{
+        font-size:0.9rem
+    }
+    .hero-text{
+        font-size:2.6rem!important;
+    }
+    .brands-icon-section{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        row-gap:50px;
+        padding: 17px 25px 10px 20px;
+    }
+    .sub-hero-icon{
+        width: 40px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:2560px){
+    .landwind-logo{
+        width: 40px;
+    }
+    .navbar-brand{
+        font-weight:500 ;
+        font-size:1.4rem !important;
+    }
+    .navbar-nav a:is(:link, :active, :visited).active{
+        color:hsl(272, 61%, 34%);
+    }
+    .nav-link{
+        font-weight: 500!important;
+        font-size: 1rem!important;
+    }
+    .navbar-nav{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 100px;
+        width:600px;
+    }
+    .hero-section{
+        display:flex;
+        align-items: center;
+        padding-top: 30px;
+    }
+    .hero-icon-div{   
+        display: flex;
+        align-items: center;
+    }
+    .hero-banner{
+        width: 400px;
+    }
+    .hero-text{
+        font-size:2.6rem!important;
+    }
+    .hero-paragraph{
+        font-size: 1.2rem;
+    }
+    .hero-links-div{
+        position: relative;
+        top:10px;
+        display: flex;
+        justify-content: space-between;
+        width:365px;
+     }
+     .hero-icon-div{
+         padding-left:20px;
+         padding-right:20px;
+     }
+     .brands-icon-section{
+        display: flex;
+        justify-content: space-around;
+        padding-top:25px;
+     }
+     .sub-hero-icon{
+        width: 36px;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1440px){
+    .navbar{
+        padding-left: 100px!important;
+        padding-right: 200px!important;
+    }
+    .hero-section{
+        padding-left: 100px!important;
+        padding-right: 50px!important;
+    }
+    .hero-text{
+        font-size:3.5rem!important;
+    }
+    .hero-paragraph{
+       padding-right: 60px;
+    }
+    .hero-banner{
+        width:550px;
+    }
+    .brands-icon-section{
+        padding-left: 50px!important; 
+        padding-right: 50px!important;
+    }
+}
+@media only screen and (min-width:2559px) and (max-width:2560px){
+    .navbar{
+        padding-left: 650px!important;
+        padding-right: 650px!important;
+    }
+    .hero-section{
+        padding-left: 650px!important;
+        padding-right: 650px!important;
+    }
+    .hero-text{
+        font-size:3.5rem!important;
+    }
+    .hero-paragraph{
+       padding-right: 60px;
+    }
+    .hero-banner{
+        width:550px;
+    }
+    .brands-icon-section{
+        padding-left: 600px!important; 
+        padding-right: 600px!important;
+    }
+}
