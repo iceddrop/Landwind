@@ -115,6 +115,12 @@
 .feature-two-div{
     padding-top:30px;
 }
+.stat-one{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+}
 .stat-text{
     color:rgb(93, 63, 211);
     font-family: Inter;
@@ -137,6 +143,25 @@
     color:rgb(93, 63, 211);
     text-decoration: none;
     font-family: Inter;
+}
+.stat-link-icon{
+    color:rgb(93, 63, 211);
+    font-size:2rem;
+}
+.stat-examples-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 145px;
+    margin-bottom:10px;
+}
+.stat-example-title{
+    font-family: Inter;
+    font-weight:bold;
+}
+.stat-example{
+    font-family: Inter;
+    color:hsl(211, 12%, 48%);
 }
 @media screen and (min-width:200px) and (max-width:426px){
     .landwind-logo{
@@ -184,6 +209,9 @@
     }
     .features-div{
         width:300px;
+    }
+    .stat-section{
+        padding: 17px 25px 40px 25px;
     }
 }
 @media screen and (min-width:481px) and (max-width:768px){
@@ -238,6 +266,17 @@
     }
     .feature-one-div{
         height: 320px;
+    }
+    .stat-section{
+        padding: 17px 25px 50px 20px; 
+    }
+    .stat-title{
+        font-size:1.6rem!important;
+    }
+    .mini-stat-div{
+       display: grid;
+       grid-template-columns: auto auto;
+       column-gap: 20px;
     }
 }
 @media screen and (min-width:769px) and (max-width:2560px){
@@ -326,6 +365,14 @@
         padding-left:50px;
         padding-right: 0px!important;
     }
+    .stat-section{
+        display: flex;
+    }
+    .mini-stat-div{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+     }
 }
 @media screen and (min-width:1200px) and (max-width:1440px){
     .navbar{
