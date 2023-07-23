@@ -81,6 +81,37 @@
     font-size: 1.4rem;
     font-weight: bold;
 }
+.features-section{
+    background-color: hsl(0, 0%, 97%);
+}
+.feature-one-title{
+    font-family: Montserrat;
+    font-size:1.7rem;
+}
+.feature-one-paragraph{
+    font-family: Inter;
+    color:hsl(211, 12%, 48%);
+}  
+.feature-one-img{
+    display: none;
+}
+.features-div{
+    display: flex;
+    align-content: center;
+}
+.fa-circle-check{
+    color:hsl(272, 61%, 34%);
+}
+.features-one{
+    margin-left: 13px;
+    font-size: 0.9rem;
+}
+.part-feature-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
 @media screen and (min-width:200px) and (max-width:426px){
     .landwind-logo{
         width: 22px;
@@ -110,11 +141,23 @@
         display: grid;
         column-gap: 50px;
         grid-template-columns: auto auto;
-        padding: 17px 25px 10px 25px;
+        padding: 17px 25px 40px 25px;
         row-gap:30px ;
     }
     .sub-hero-icon{
         width: 40px;
+    }
+    .features-section{
+        padding:40px 30px 50px 20px;
+    }
+    .features-section{
+        height: 1000px;
+    }
+    .feature-one-div{
+        height: 500px;
+    }
+    .features-div{
+        width:300px;
     }
 }
 @media screen and (min-width:481px) and (max-width:768px){
@@ -156,10 +199,19 @@
         display: grid;
         grid-template-columns: auto auto auto;
         row-gap:50px;
-        padding: 17px 25px 10px 20px;
+        padding: 17px 25px 50px 20px;
     }
     .sub-hero-icon{
         width: 40px;
+    }
+    .features-section{
+        padding:40px 30px 50px 20px;
+    }
+    .features-section{
+        height: 640px;
+    }
+    .feature-one-div{
+        height: 320px;
     }
 }
 @media screen and (min-width:769px) and (max-width:2560px){
@@ -216,9 +268,30 @@
         display: flex;
         justify-content: space-around;
         padding-top:25px;
+        padding-bottom: 50px;
      }
      .sub-hero-icon{
         width: 36px;
+    }
+    .features-section{
+        padding:100px 30px 50px 20px;
+        height: 850px;
+    }
+    .feature-one-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 400px;
+    }
+    .feature-one-img{
+        display: block;
+        width: 425px;
+    }
+    .feature-one-paragraph{
+        font-size: 1.2rem!important;
+    }
+    .part-feature-one{
+        padding-right: 50px;
     }
 }
 @media screen and (min-width:1200px) and (max-width:1440px){
@@ -243,6 +316,13 @@
         padding-left: 50px!important; 
         padding-right: 50px!important;
     }
+    .features-section{
+        padding-left: 100px!important;
+        padding-right: 100px!important;
+    }
+    .feature-one-img{
+        width:650px;
+    }
 }
 @media only screen and (min-width:2559px) and (max-width:2560px){
     .navbar{
@@ -265,5 +345,12 @@
     .brands-icon-section{
         padding-left: 600px!important; 
         padding-right: 600px!important;
+    }
+    .features-section{
+        padding-left: 650px!important;
+        padding-right: 650px!important;
+    }
+    .feature-one-img{
+        width:650px;
     }
 }
