@@ -152,7 +152,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 145px;
     margin-bottom:10px;
 }
 .stat-example-title{
@@ -202,16 +201,25 @@
         padding:40px 30px 50px 20px;
     }
     .features-section{
-        height: 1050px;
+        height: 1100px;
     }
     .feature-one-div{
         height: 500px;
+    }
+    .feature-two-div{
+        height: 550px;
     }
     .features-div{
         width:300px;
     }
     .stat-section{
-        padding: 17px 25px 40px 25px;
+        padding: 17px 25px 0px 20px;
+    }
+    .stat-examples-div{
+        height: 145px;
+    }
+    .mini-stat-div{ 
+       padding-top: 20px;
     }
 }
 @media screen and (min-width:481px) and (max-width:768px){
@@ -268,15 +276,19 @@
         height: 320px;
     }
     .stat-section{
-        padding: 17px 25px 50px 20px; 
+        padding: 17px 25px 0px 20px; 
     }
     .stat-title{
         font-size:1.6rem!important;
+    }
+    .stat-examples-div{
+        height: 145px;
     }
     .mini-stat-div{
        display: grid;
        grid-template-columns: auto auto;
        column-gap: 20px;
+       padding-top: 20px;
     }
 }
 @media screen and (min-width:769px) and (max-width:2560px){
@@ -367,12 +379,21 @@
     }
     .stat-section{
         display: flex;
+        padding:100px 30px 50px 20px;
+    }
+    .stat-one{
+        height: 340px;
+        padding-right:100px;
+    }
+    .stat-examples-div{
+        height: 175px;
     }
     .mini-stat-div{
         display: grid;
         grid-template-columns: auto auto;
         column-gap: 20px;
-     }
+    }
+
 }
 @media screen and (min-width:1200px) and (max-width:1440px){
     .navbar{
@@ -403,6 +424,10 @@
     .feature-one-img{
         width:550px;
     }
+    .stat-section{
+        padding-left: 100px!important;
+        padding-right: 100px!important;
+    }
 }
 @media only screen and (min-width:2559px) and (max-width:2560px){
     .navbar{
@@ -432,5 +457,9 @@
     }
     .feature-one-img{
         width:650px;
+    }
+    .stat-section{
+        padding-left: 650px!important;
+        padding-right: 650px!important;
     }
 }
