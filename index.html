@@ -1,170 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landwind</title>
-    <link rel="stylesheet" href="page.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landwind</title>
+  <link rel="stylesheet" href="page.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-white sticky-top">
-        <div class="container-fluid">
-            <div class="logo-div">
-                <img class="landwind-logo" src="images/logo (1).svg" alt="landwind-logo"/>
-                <a class="navbar-brand" href="#">Landwind</a>
-            </div>
- 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              <a class="nav-link" href="page.html">Company</a>
-              <a class="nav-link" href="page.html">Marketplace</a>
-              <a class="nav-link" href="page.html">Features</a>
-              <a class="nav-link" href="page.html">Team</a>
-              <a class="nav-link" href="page.html">Contact</a>
-            </div>
+  <nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <div class="container-fluid">
+      <div class="logo-div">
+        <img class="landwind-logo" src="images/logo (1).svg" alt="landwind-logo" />
+        <a class="navbar-brand" href="#">Landwind</a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="page.html">Company</a>
+          <a class="nav-link" href="page.html">Marketplace</a>
+          <a class="nav-link" href="page.html">Features</a>
+          <a class="nav-link" href="page.html">Team</a>
+          <a class="nav-link" href="page.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="hero-section">
+    <div class="hero-text-div">
+      <h2 class="hero-text">Building digital<br>products & brands.</h2>
+      <p class="hero-paragraph">This free and open-source landing page template was built using the utility classes from
+        Tailwind CSS and based on the components from the Flowbite Library and the Blocks System.</p>
+      <div class="hero-links-div">
+        <div class="hero-icon-div">
+          <i class="fa-brands fa-github"></i>
+          <a href="#" class="hero-links">View on GitHub</a>
+        </div>
+        <div class="hero-icon-div">
+          <i class="fa-brands fa-figma"></i>
+          <a href="#" class="hero-links">Get Figma file</a>
+        </div>
+      </div>
+    </div>
+    <img src="images/hero.png" class="hero-banner" alt="hero-banner" />
+  </section>
+  <section class="brands-icon-section">
+    <div class="brand-icon-div">
+      <img src="images/airbnb.png" class="airbnb-icon sub-hero-icon" alt="airbnb-icon" />
+      <h4 class="airbnb-text">airbnb</h4>
+    </div>
+    <div class="brand-icon-div">
+      <img src="images/twitter.png" class="twitter-icon sub-hero-icon" alt="twitter-icon" />
+      <h4 class="twitter-text">twitter</h4>
+    </div>
+    <div class="brand-icon-div">
+      <img src="images/microsoft.png" class="microsoft-icon sub-hero-icon" alt="microsoft-icon" />
+      <h4 class="microsoft-text">Microsoft</h4>
+    </div>
+    <div class="brand-icon-div">
+      <img src="images/spotify.png" class="spotify-icon sub-hero-icon" alt="spotify-icon" />
+      <h4 class="spotify-text">Spotify</h4>
+    </div>
+    <div class="brand-icon-div">
+      <img src="images/mailchimp.png" class="mailchimp-icon sub-hero-icon" alt="mailchimp-icon" />
+      <h4 class="mailchimp-text">mailchimp</h4>
+    </div>
+    <div class="brand-icon-div">
+      <img src="images/linkedin (1).png" class="linkedin-icon sub-hero-icon" alt="linkedin-icon" />
+      <h4 class="linkedin-text">linkedin</h4>
+    </div>
+  </section>
+  <section class="features-section">
+    <div class="feature-one-div">
+      <div class="part-feature-one">
+        <h3 class="feature-one-title">Work with tools you already use</h3>
+        <p class="feature-one-paragraph">Deliver great service experiences fast - without the complexity of traditional
+          ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
+        <hr>
+        <div class="features-div">
+          <i class="fa-solid fa-circle-check"></i>
+          <h6 class="features-one">Continuous integration and deployment</h6>
+        </div>
+        <div class="features-div">
+          <i class="fa-solid fa-circle-check"></i>
+          <h6 class="features-one">Development workflow</h6>
+        </div>
+        <div class="features-div">
+          <i class="fa-solid fa-circle-check"></i>
+          <h6 class="features-one">Knowledge management</h6>
+        </div>
+        <p class="feature-one-paragraph">Deliver great service experiences fast - without the complexity of traditional
+          ITSM solutions.</p>
+      </div>
+      <img src="images/feature-1.png" class="feature-one-img" alt="feature-one-img" />
+    </div>
+    <div class="feature-one-div feature-two-div">
+      <img src="images/feature-2.png" class="feature-one-img" alt="feature-two-img" />
+      <div class="part-feature-one part-feature-two">
+        <h3 class="feature-one-title">We invest in the world’s potential</h3>
+        <p class="feature-one-paragraph">Deliver great service experiences fast - without the complexity of traditional
+          ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
+        <hr>
+        <div class="features-div">
+          <i class="fa-solid fa-circle-check"></i>
+          <h6 class="features-one">Dynamic reports and dashboards</h6>
+        </div>
+        <div class="features-div">
+          <i class="fa-solid fa-circle-check"></i>
+          <h6 class="features-one">Templates for everyone</h6>
+        </div>
+        <div class="features-div">
+          <i class="fa-solid fa-circle-check"></i>
+          <h6 class="features-one">Knowledge management</h6>
+        </div>
+        <div class="features-div">
+          <i class="fa-solid fa-circle-check"></i>
+          <h6 class="features-one">Limitless business automation</h6>
+        </div>
+        <div class="features-div">
+          <i class="fa-solid fa-circle-check"></i>
+          <h6 class="features-one">Development workflow</h6>
+        </div>
+        <p class="feature-one-paragraph">Deliver great service experiences fast - without the complexity of traditional
+          ITSM solutions.</p>
+      </div>
+    </div>
+  </section>
+  <section class="stat-section">
+    <div class="stat-one">
+      <h5 class="stat-text">Trusted Worldwide</h5>
+      <h3 class="stat-title">Trusted by over 600 million users and 10,000 teams</h3>
+      <p class="stat-paragraph">Our rigorous security and compliance standards are at the heart of all we do. We work
+        tirelessly to protect you and your customers.</p>
+      <hr>
+      <div class="stat-link-div">
+        <a class="stat-link-text" href="#">Explore Legality Guide</a>
+        <i class="fa-solid fa-arrow-right-long"></i>
+      </div>
+      <div class="stat-link-div">
+        <a class="stat-link-text" href="#">Visit the Trust Center</a>
+        <i class="fa-solid fa-arrow-right-long"></i>
+      </div>
+    </div>
+    <div class="mini-stat-div">
+      <div class="stat-examples-div">
+        <i class="fa-solid fa-server stat-link-icon"></i>
+        <h4 class="stat-example-title">99.99% uptime</h4>
+        <p class="stat-example">For Landwind, with zero maintenance downtime</p>
+      </div>
+      <div class="stat-examples-div">
+        <i class="fa-solid fa-user-group stat-link-icon"></i>
+        <h4 class="stat-example-title">600M+ Users</h4>
+        <p class="stat-example">Trusted by over 600 milion users around the world</p>
+      </div>
+      <div class="stat-examples-div">
+        <i class="fa-solid fa-earth-africa stat-link-icon"></i>
+        <h4 class="stat-example-title">100+ countries</h4>
+        <p class="stat-example">Have used Landwind to create functional websites</p>
+      </div>
+      <div class="stat-examples-div">
+        <i class="fa-solid fa-cart-shopping stat-link-icon"></i>
+        <h4 class="stat-example-title">5+ Million</h4>
+        <p class="stat-example">Transactions per day</p>
+      </div>
+    </div>
+  </section>
+  <section class="testimonial-section">
+    <i class="fa-solid fa-quote-left"></i>
+    <p class="client-review">"Landwind is just awesome. It contains tons of predesigned components and pages starting
+      from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+    <div class="client-div">
+      <img src="images/michael-gouch.png" class="client-img" alt="client-img" />
+      <h6 class="client-name">Micheal Gogh</h6>
+      <p class="divider">|</p>
+      <p class="client-title"> CEO at BlueLink</p>
+      </p>
+    </div>
+  </section>
+  <section class="price-section">
+    <h3 class="price-title">Designed for business teams like yours</h3>
+    <p class="price-title-paragraph">Here at Landwind we focus on markets where technology, innovation, and capital can
+      unlock long-term value and drive economic growth.</p>
+    <div class="flex-price-boxes">
+      <div class="price-box">
+        <div class="price-div">
+          <h4 class="price-div-title">Starter</h4>
+          <p class="price-div-sub-title">Best option for personal use & for your next project.</p>
+          <div class="price-subscription-div">
+            <h3 class="price">$29</h3>
+            <h6 class="price-duration">/month</h6>
           </div>
         </div>
-      </nav>
-      <section class="hero-section">
-        <div class="hero-text-div">
-          <h2 class="hero-text">Building digital<br>products & brands.</h2>
-            <p class="hero-paragraph">This free and open-source landing page template was built using the utility classes from Tailwind CSS and based on the components from the Flowbite Library and the Blocks System.</p>
-            <div class="hero-links-div">
-              <div class="hero-icon-div">
-                <i class="fa-brands fa-github"></i>
-                <a href="#" class="hero-links">View on GitHub</a>
-              </div>
-              <div class="hero-icon-div">
-                <i class="fa-brands fa-figma"></i>
-                <a href="#" class="hero-links">Get Figma file</a>
-              </div>
-            </div>
-        </div>
-        <img src="images/hero.png" class="hero-banner" alt="hero-banner"/>
-      </section>
-      <section class="brands-icon-section">
-        <div class="brand-icon-div">
-           <img src="images/airbnb.png" class="airbnb-icon sub-hero-icon" alt="airbnb-icon"/>
-           <h4 class="airbnb-text">airbnb</h4>
-        </div>
-        <div class="brand-icon-div">
-           <img src="images/twitter.png" class="twitter-icon sub-hero-icon" alt="twitter-icon"/>
-           <h4 class="twitter-text">twitter</h4> 
-        </div>
-        <div class="brand-icon-div">
-          <img src="images/microsoft.png" class="microsoft-icon sub-hero-icon" alt="microsoft-icon"/>
-          <h4 class="microsoft-text">Microsoft</h4>
-        </div>
-        <div class="brand-icon-div">
-          <img src="images/spotify.png" class="spotify-icon sub-hero-icon" alt="spotify-icon"/>
-          <h4 class="spotify-text">Spotify</h4>
-        </div>
-        <div class="brand-icon-div">
-          <img src="images/mailchimp.png" class="mailchimp-icon sub-hero-icon" alt="mailchimp-icon"/>
-          <h4 class="mailchimp-text">mailchimp</h4>
-        </div>
-        <div class="brand-icon-div">
-          <img src="images/linkedin (1).png" class="linkedin-icon sub-hero-icon" alt="linkedin-icon"/>
-          <h4 class="linkedin-text">linkedin</h4>
-        </div>
-      </section>
-      <section class="features-section">
-        <div class="feature-one-div">
-          <div class="part-feature-one">
-            <h3 class="feature-one-title">Work with tools you already use</h3>
-            <p class="feature-one-paragraph">Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
-            <hr>
-            <div class="features-div">
-              <i class="fa-solid fa-circle-check"></i>
-              <h6 class="features-one">Continuous integration and deployment</h6>
-            </div>
-            <div class="features-div">
-              <i class="fa-solid fa-circle-check"></i>
-              <h6 class="features-one">Development workflow</h6>
-            </div>
-            <div class="features-div">
-              <i class="fa-solid fa-circle-check"></i>
-              <h6 class="features-one">Knowledge management</h6>
-            </div>
-            <p class="feature-one-paragraph">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.</p>
+        <div class="subscription-plan-offers-div">
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
           </div>
-          <img src="images/feature-1.png" class="feature-one-img" alt="feature-one-img" />
-        </div>
-        <div class="feature-one-div feature-two-div">
-          <img src="images/feature-2.png" class="feature-one-img" alt="feature-two-img" />
-          <div class="part-feature-one part-feature-two">
-            <h3 class="feature-one-title">We invest in the world’s potential</h3>
-            <p class="feature-one-paragraph">Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
-            <hr>
-            <div class="features-div">
-              <i class="fa-solid fa-circle-check"></i>
-              <h6 class="features-one">Dynamic reports and dashboards</h6>
-            </div>
-            <div class="features-div">
-              <i class="fa-solid fa-circle-check"></i>
-              <h6 class="features-one">Templates for everyone</h6>
-            </div>
-            <div class="features-div">
-              <i class="fa-solid fa-circle-check"></i>
-              <h6 class="features-one">Knowledge management</h6>
-            </div>
-            <div class="features-div">
-              <i class="fa-solid fa-circle-check"></i>
-              <h6 class="features-one">Limitless business automation</h6>
-            </div>
-            <div class="features-div">
-              <i class="fa-solid fa-circle-check"></i>
-              <h6 class="features-one">Development workflow</h6>
-            </div>
-            <p class="feature-one-paragraph">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.</p>
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
+          </div>
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
+            <p class="price-plan-offer-two">: 1 developer</p>
+          </div>
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
+            <p class="price-plan-offer-two">: 6 months</p>
+          </div>
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
+            <p class="price-plan-offer-two">: 6 months</p>
           </div>
         </div>
-      </section>
-      <section class="stat-section">
-        <div class="stat-one">
-          <h5 class="stat-text">Trusted Worldwide</h5>
-          <h3 class="stat-title">Trusted by over 600 million users and 10,000 teams</h3>
-          <p class="stat-paragraph">Our rigorous security and compliance standards are at the heart of all we do. We work tirelessly to protect you and your customers.</p>
-          <hr>
-          <div class="stat-link-div">
-            <a class="stat-link-text" href="#">Explore Legality Guide</a>
-            <i class="fa-solid fa-arrow-right-long"></i>
-          </div>
-          <div class="stat-link-div">
-            <a class="stat-link-text" href="#">Visit the Trust Center</a>
-            <i class="fa-solid fa-arrow-right-long"></i>
+        <div class="btn-div">
+          <a href="#" class="get-started-btn">Get started</a>
+        </div>
+      </div>
+      <div class="price-box">
+        <div class="price-div">
+          <h4 class="price-div-title">Starter</h4>
+          <p class="price-div-sub-title">Best option for personal use & for your next project.</p>
+          <div class="price-subscription-div">
+            <h3 class="price">$29</h3>
+            <h6 class="price-duration">/month</h6>
           </div>
         </div>
-        <div class="mini-stat-div">
-          <div class="stat-examples-div">
-            <i class="fa-solid fa-server stat-link-icon"></i>
-            <h4 class="stat-example-title">99.99% uptime</h4>
-            <p class="stat-example">For Landwind, with zero maintenance downtime</p>
+        <div class="subscription-plan-offers-div">
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
           </div>
-          <div class="stat-examples-div">
-            <i class="fa-solid fa-user-group stat-link-icon"></i>
-            <h4 class="stat-example-title">600M+ Users</h4>
-            <p class="stat-example">Trusted by over 600 milion users around the world</p>
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
           </div>
-          <div class="stat-examples-div">
-            <i class="fa-solid fa-earth-africa stat-link-icon"></i>
-            <h4 class="stat-example-title">100+ countries</h4>
-            <p class="stat-example">Have used Landwind to create functional websites</p>
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
+            <p class="price-plan-offer-two">: 1 developer</p>
           </div>
-          <div class="stat-examples-div">
-            <i class="fa-solid fa-cart-shopping stat-link-icon"></i>
-            <h4 class="stat-example-title">5+ Million</h4>
-            <p class="stat-example">Transactions per day</p>
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
+            <p class="price-plan-offer-two">: 6 months</p>
+          </div>
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
+            <p class="price-plan-offer-two">: 6 months</p>
           </div>
         </div>
-      </section>
-      <script src="page.js"></script>
-      <script src="https://kit.fontawesome.com/365b7000f6.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <div class="btn-div">
+          <a href="#" class="get-started-btn">Get started</a>
+        </div>
+      </div>
+      <div class="price-box">
+        <div class="price-div">
+          <h4 class="price-div-title">Starter</h4>
+          <p class="price-div-sub-title">Best option for personal use & for your next project.</p>
+          <div class="price-subscription-div">
+            <h3 class="price">$29</h3>
+            <h6 class="price-duration">/month</h6>
+          </div>
+        </div>
+        <div class="subscription-plan-offers-div">
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
+          </div>
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
+          </div>
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
+            <p class="price-plan-offer-two">: 1 developer</p>
+          </div>
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
+            <p class="price-plan-offer-two">: 6 months</p>
+          </div>
+          <div class="plan-mini-div">
+            <i class="fa-solid fa-check"></i>
+            <p class="price-plan-offer">Individual configuration</p>
+            <p class="price-plan-offer-two">: 6 months</p>
+          </div>
+        </div>
+        <div class="btn-div">
+          <a href="#" class="get-started-btn">Get started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="page.js"></script>
+  <script src="https://kit.fontawesome.com/365b7000f6.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lalezar&family=Manrope&family=Montserrat:wght@900&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lalezar&family=Manrope&family=Montserrat:wght@900&family=Outfit&family=PT+Sans&family=Raleway:wght@100&display=swap');
 *{
     padding:0px;
     margin: 0px;
@@ -87,6 +87,7 @@
 .feature-one-title{
     font-family: Montserrat;
     font-size:1.7rem;
+    color:black;
 }
 .feature-one-paragraph{
     font-family: Inter;
@@ -127,6 +128,7 @@
 }
 .stat-title{
     font-family: Montserrat;
+    color:black;
 }
 .stat-paragraph{
     font-family: Inter;
@@ -157,10 +159,126 @@
 .stat-example-title{
     font-family: Inter;
     font-weight:bold;
+    color:black;
 }
 .stat-example{
     font-family: Inter;
     color:hsl(211, 12%, 48%);
+}
+.testimonial-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:hsl(0, 0%, 97%);
+}
+.fa-quote-left{
+    font-size: 3.5rem;
+    color: hsl(211, 12%, 48%);
+    padding-bottom:10px;
+}
+.client-review{
+    font-family: Inter;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.client-img{
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.divider{
+    margin-left: 10px;
+}
+.client-title{
+    margin-left:9px;
+    margin-top: 5px;
+    font-family:Raleway ;
+    color:black;
+}
+.client-div{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.price-section{
+    display: flex;
+    flex-direction: column;
+}
+.price-title{
+    font-family: Montserrat;
+    color:black;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.price-title-paragraph{
+    text-align: center;
+    font-family:Inter;
+    padding-top: 13px;
+}
+.price-box{
+    border: 1px solid whitesmoke;
+    padding: 25px 20px 25px 20px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px 2px whitesmoke;
+}
+.price-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price-div-title{
+    font-family: PT Sans;
+    font-weight: bold;
+    color:black;
+}
+.price-div-sub-title{
+    font-family:Inter;
+    text-align: center;
+}
+.price-subscription-div{
+    display: flex;
+}
+.price{
+    position: relative;
+    top:10px;
+    font-family: Montserrat;
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+}
+.price-duration{
+    align-self: end;
+}
+.plan-mini-div{
+    display: flex;
+}
+.price-plan-offer{
+    margin-left: 13px;
+    font-family: Inter;
+}
+.price-plan-offer-two{
+    font-family: Inter;
+    font-weight: 600;
+}
+.subscription-plan-offers-div{
+    padding-top: 25px;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+.get-started-btn{
+    background-color: rgb(93, 63, 211);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    width: 100%;
+}
+.fa-check{
+    color:hsl(137, 100%, 45%);
 }
 @media screen and (min-width:200px) and (max-width:426px){
     .landwind-logo{
@@ -220,6 +338,21 @@
     }
     .mini-stat-div{ 
        padding-top: 20px;
+    }
+    .client-title{
+        font-size: 0.9rem;
+    }
+    .testimonial-section{
+        padding: 17px 25px 17px 20px;
+    }
+    .price-section{
+        padding: 35px 25px 17px 20px;
+    }
+    .flex-price-boxes{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 1600px;
     }
 }
 @media screen and (min-width:481px) and (max-width:768px){
@@ -289,6 +422,19 @@
        grid-template-columns: auto auto;
        column-gap: 20px;
        padding-top: 20px;
+    }
+    .testimonial-section{
+        padding: 20px 25px 20px 20px; 
+    }
+    .client-review{
+        font-weight:bold;
+    }
+    .price-section{
+        padding: 20px 25px 20px 20px; 
+    }
+    .flex-price-boxes{
+        padding-left: 120px;
+        padding-right: 120px;
     }
 }
 @media screen and (min-width:769px) and (max-width:2560px){
@@ -393,7 +539,13 @@
         grid-template-columns: auto auto;
         column-gap: 20px;
     }
-
+    .client-review{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .testimonial-section{
+        padding:60px 130px 60px 130px;
+    }
 }
 @media screen and (min-width:1200px) and (max-width:1440px){
     .navbar{
@@ -428,6 +580,9 @@
         padding-left: 100px!important;
         padding-right: 100px!important;
     }
+    .testimonial-section{
+       padding: 100px 300px 100px 300px;
+    }
 }
 @media only screen and (min-width:2559px) and (max-width:2560px){
     .navbar{
@@ -461,5 +616,8 @@
     .stat-section{
         padding-left: 650px!important;
         padding-right: 650px!important;
+    }
+    .testimonial-section{
+       padding:100px 900px 100px 900px;
     }
 }
