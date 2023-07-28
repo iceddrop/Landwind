@@ -299,6 +299,29 @@
 .accordion-list{
     text-align: start;
 }
+.free-trial-section{
+    text-align: center;
+    background-color: hsl(0, 0%, 97%);
+}
+.free-trial-heading{
+    font-family: Montserrat;
+    font-size:1.7rem;
+}
+.free-trial-paragraph{
+    font-family: Inter;
+    color: hsl(211, 12%, 48%);
+    padding-top: 15px;
+}
+.free-trial-btn{
+    position: relative;
+    top: 10px;
+    background-color: rgb(93, 63, 211);
+    color:white;
+    font-family: Inter;
+    padding: 13px 20px 13px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
 @media screen and (min-width:200px) and (max-width:426px){
     .landwind-logo{
         width: 22px;
@@ -375,8 +398,12 @@
     .faq-section{
         padding: 20px 25px 17px 25px;
     }
+    .free-trial-section{
+        height: 250px;
+        padding: 30px 25px 18px 25px;
+    }
 }
-@media screen and (min-width:481px) and (max-width:768px){
+@media screen and (min-width:481px) and (max-width:1000px){
     .landwind-logo{
     width: 33px;
     }
@@ -460,8 +487,12 @@
     .faq-section{
         padding: 20px 25px 20px 20px;
     }
+    .free-trial-section{
+        height: 210px;
+        padding: 40px 0px 20px 0px;
+    }
 }
-@media screen and (min-width:769px) and (max-width:2560px){
+@media screen and (min-width:1024px) and (max-width:2560px){
     .landwind-logo{
         width: 40px;
     }
@@ -585,6 +616,10 @@
     }
     .faq-section{
         padding:0px 130px 60px 130px;  
+    }
+    .free-trial-section{
+        height: 250px;
+        padding: 60px 0px 50px 0px;
     }
 }
 @media screen and (min-width:1200px) and (max-width:1440px){
