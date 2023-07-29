@@ -9,6 +9,7 @@
 }
 .logo-div{
     display: flex;
+    justify-content: center!important;
 }
 
 .navbar-brand{
@@ -322,6 +323,41 @@
     text-decoration: none;
     border-radius: 8px;
 }
+.footer-link-title{
+    font-family: Inter;
+}
+.footer-link-list{
+    list-style:none;
+}
+.footer-link-list a{
+    position: relative;
+    right:30px;
+    color: hsl(211, 12%, 48%);
+    font-family: Inter;
+    text-decoration: none;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:180px;
+    border-top: 1px solid hsl(204, 8%, 76%);
+}
+.footer-paragraph{
+    font-family:Inter;
+    color:hsl(211, 12%, 48%);
+    text-align: center;
+    margin-top:13px;
+}
+.footer-icons-div{
+    display: flex;
+    justify-content: space-around;
+    width: 170px;
+}
+.footer-icon{
+    font-size: 1.2rem;
+    color: hsl(211, 12%, 48%);
+}
 @media screen and (min-width:200px) and (max-width:426px){
     .landwind-logo{
         width: 22px;
@@ -400,6 +436,15 @@
     }
     .free-trial-section{
         height: 250px;
+        padding: 30px 25px 18px 25px;
+    }
+    .footer-links-section{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+        padding:30px 25px 18px 25px;
+    }
+    .footer-section{
         padding: 30px 25px 18px 25px;
     }
 }
@@ -490,6 +535,15 @@
     .free-trial-section{
         height: 210px;
         padding: 40px 0px 20px 0px;
+    }
+    .footer-links-section{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        row-gap: 20px;
+        padding: 30px 25px 20px 20px;
+    }
+    .footer-section{
+        padding:40px 0px 20px 0px;
     }
 }
 @media screen and (min-width:1024px) and (max-width:2560px){
@@ -621,6 +675,15 @@
         height: 250px;
         padding: 60px 0px 50px 0px;
     }
+    .footer-links-section{
+        display:flex;
+        justify-content: space-around;
+        padding: 60px 50px 50px 0px;
+    }
+    .footer-section{
+        height:230px;
+        padding: 60px 50px 50px 60px;
+    }
 }
 @media screen and (min-width:1200px) and (max-width:1440px){
     .navbar{
@@ -671,6 +734,13 @@
     .faq-section{
         padding: 0px 360px 80px 360px;
     }
+    .free-trial-section{
+        height: 250px;
+        padding: 60px 0px 50px 0px;
+    }
+    .footer-links-section{
+        padding: 60px 60px 60px 60px;
+    }
 }
 @media only screen and (min-width:2559px) and (max-width:2560px){
     .navbar{
@@ -720,5 +790,8 @@
     }
     .faq-section{
         padding: 0px 900px 80px 900px;
+    }
+    .footer-links-section{
+        padding:80px 650px 60px 650px; 
     }
 }
