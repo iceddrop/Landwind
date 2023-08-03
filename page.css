@@ -362,13 +362,6 @@
     .landwind-logo{
         width: 22px;
     }
-    .navbar-nav a:is(:link, :active, :visited).active{
-        background:rgb(93, 63, 211);
-        color:white;
-        padding: 7px;
-        margin-top: 10px;
-        border-radius: 5px;
-    }
     .hero-banner{
         display:none;
     }
@@ -382,6 +375,13 @@
         flex-direction: column;
         justify-content: space-between;
         height:115px;
+    }
+    .navbar-nav a:hover{
+        background:rgb(93, 63, 211);
+        color:white;
+        padding: 7px;
+        margin-top: 10px;
+        border-radius: 5px;
     }
     .brands-icon-section{
         display: grid;
@@ -458,7 +458,7 @@
     .nav-link{
         font-weight: 500!important;
     }
-    .navbar-nav a:is(:link, :active, :visited).active{
+    .navbar-nav a:hover{
         background:rgb(93, 63, 211);
         color:white;
         padding: 7px;
@@ -554,9 +554,6 @@
         font-weight:500 ;
         font-size:1.4rem !important;
     }
-    .navbar-nav a:is(:link, :active, :visited).active{
-        color:rgb(93, 63, 211);
-    }
     .nav-link{
         font-weight: 500!important;
         font-size: 1rem!important;
@@ -566,6 +563,10 @@
         justify-content: space-evenly;
         margin-left: 100px;
         width:600px;
+    }
+    .navbar-nav a:hover{
+        color:rgb(93, 63, 211);
+        border-bottom: 1px solid rgb(93, 63, 211);
     }
     .hero-section{
         display:flex;
