@@ -4,6 +4,10 @@
     margin: 0px;
     font-size: 16px;
 }
+nav  .active{
+    border-bottom: 1px  solid rgb(93, 63, 211);
+    
+}
 .navbar{
     padding: 12px 8px !important
 }
@@ -38,6 +42,9 @@
     cursor: pointer;
     padding: 10px;
     text-align: center;
+}
+.hero-icon-div:hover{
+    background-color:hsl(0, 0%, 97%);
 }
 .hero-links{
     text-decoration: none;
